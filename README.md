@@ -1,51 +1,56 @@
-# Country Flag Hover
+# Country Flag Inline
 
-A simple VS Code extension that shows country flag emojis when hovering over ISO country codes in your code.
+A simple VS Code extension that shows country flag emojis next to ISO country codes in your code.
 
 ## Features
 
-This extension detects ISO country codes in your text and displays the corresponding flag emoji when you hover over them:
+This extension detects ISO country codes in your text and displays the corresponding flag emoji inline:
 
 - Supports both ISO 3166-1 alpha-2 (two-letter) and alpha-3 (three-letter) country codes
 - Works in JavaScript, TypeScript, JSON, Python, Markdown, and plain text files
 - Instantly recognizes country codes without any configuration
-
-![Feature Preview](./images/preview.png)
+- Shows flag emojis directly in the editor without requiring hover
+- Hover over country codes to see the full country name and flag
 
 ## How It Works
 
-When you hover over text in a supported file type:
+In supported file types:
 
-1. The extension identifies if the text under your cursor is a valid ISO country code
-2. If it is, a hover tooltip appears with the corresponding country flag emoji
-3. Both uppercase and lowercase country codes are supported
+1. The extension scans your document for valid ISO country codes
+2. When a country code is found, its corresponding flag emoji is shown next to it
+3. The flags appear automatically as you type or open files
+4. Provides a hover tooltip showing the country name when you hover over a country code
 
 ## Examples
 
-This works on country codes in various contexts, including:
+Country codes in various contexts will have their flags displayed inline:
 
 ```javascript
 // Two-letter codes
-const countryCode = "US"; // 🇺🇸
-const europeanCountries = ["DE", "FR", "IT", "ES"]; // 🇩🇪 🇫🇷 🇮🇹 🇪🇸
+const countryCode = "US 🇺🇸";
+const shipping = {
+  "CA 🇨🇦": "Canada", // CA 
+  "MX 🇲🇽: "Mexico", // MX 
+  "BR 🇧🇷: "Brazil" // BR 
+};
 
 // Three-letter codes
-const olympicTeam = "JPN"; // 🇯🇵
+const olympicTeam = "JPN 🇯🇵";
 const destinations = {
-  "CAN": "Toronto",
-  "MEX": "Mexico City",
-  "BRA": "Rio de Janeiro"
-}; // 🇨🇦 🇲🇽 🇧🇷
+  "CAN": "Toronto",  // CAN 🇨🇦
+  "MEX": "Mexico City", // MEX 🇲🇽
+  "BRA": "Rio de Janeiro" // BRA 🇧🇷
+};
 ```
 
 ## Supported Languages
 
-- JavaScript
-- TypeScript
-- JSON
-- Python
-- Markdown
-- Plain text
+- JavaScript (.js)
+- TypeScript (.ts)
+- JSON (.json)
+- Python (.py)
+- Markdown (.md)
+- Plain text (.txt)
 
 ## Requirements
 
@@ -62,12 +67,15 @@ This extension doesn't add any settings to VS Code.
 
 ## Release Notes
 
+### 0.0.2
+
+- Added hover functionality that displays country name when hovering over country codes
+
 ### 0.0.1
 
-Initial release of the Country Flag Hover extension:
-
+- Initial release
 - Support for ISO 3166-1 alpha-2 and alpha-3 country codes
-- Hover display of country flag emojis
+- Inline display of country flag emojis next to country codes
 - Support for multiple programming languages and text formats
 
 ---

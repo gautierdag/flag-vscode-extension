@@ -18,7 +18,7 @@ PM
 Some additional countries:
 AUS - Australia
 IND - India
-ESP - Spain
+E - Spain
 MEX - Mexico
 IDN - Indonesia
 
@@ -26,15 +26,14 @@ IDN - Indonesia
 KOR - South Korea
 ES
 UA
-XX
-Recently added countries:
+XXaSDFAS@£$@£RQ£$@£$%@£$%ASDFASDFJAIDOFJAOWEDFUAU AU AU A U A U A U AU AU UA UAUAUAUAJIQWERHFIQWENFAEIHRFQNLKEWFNQksd;hfivgsjbhriejbnpASDGFAERFGAWEFOAQJEPFQJAWSOCFAHRPIGVQNERKVINAQPEIRGNQ:KLAEDNVA:
 UKR - Ukraine
 VNM - Vietnam
-POL - Poland
+PA - Poland
 THA - Thailand
 SGP - Singapore
-ZAF - South Africa
+ZAF- South Africa
 IRN - Iran
-IRL - Ireland
+IL - Ireland
 ISR - Israel
 TUR - Turkey

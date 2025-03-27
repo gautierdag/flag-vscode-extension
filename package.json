@@ -1,8 +1,8 @@
 {
   "name": "country-flag-hover",
-  "displayName": "Country Flag Hover",
-  "description": "Display country flag emojis when hovering over ISO country codes",
-  "version": "0.0.1",
+  "displayName": "Country Flag Inline",
+  "description": "Display country flag emojis next to ISO country codes in your code",
+  "version": "0.0.2",
   "publisher": "gautierdag",
   "repository": {
     "type": "git",
@@ -28,7 +28,8 @@
     "onLanguage:plaintext",
     "onLanguage:markdown",
     "onLanguage:typescript",
-    "onLanguage:python"
+    "onLanguage:python",
+    "onLanguage:csv"
   ],
   "main": "./out/extension.js",
   "contributes": {
